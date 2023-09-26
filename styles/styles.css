@@ -133,6 +133,25 @@ a, ul, p, h1, button {
   background-color: lightblue;
 }
 
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 84px;
+}
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+.quote-author {
+ align-self: flex-end;
+ font-size: 20px;
+ font-weight: bolder;
+ margin-right: 20px;
+}
 .footer-container {
   background-color: #1F2937;
   color: #F9FAF8;
