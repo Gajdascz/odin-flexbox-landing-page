@@ -152,6 +152,44 @@ a, ul, p, h1, button {
  font-weight: bolder;
  margin-right: 20px;
 }
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 100px;
+}
+.cta-left {
+  display: flex;
+  flex-direction: column;
+}
+.cta-right {
+  display: flex;
+}
+.cta-header {
+  color: #F9FAF8;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.cta-text {
+  color: #F9FAF8;
+}
+.cta-button {
+  background-color: #3882F6;
+  border: 2px solid#F9FAF8;
+  border-radius: 5px;
+  color: #F9FAF8;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.cta-button:hover {
+  background-color: #F9FAF8;
+  color:#3882F6;
+}
+
 .footer-container {
   background-color: #1F2937;
   color: #F9FAF8;
