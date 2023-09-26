@@ -15,6 +15,7 @@ a, ul, p, h1, button {
 
 .header-container, .header-logo, .header-links,
 .hero-container,
+.physicist-information-container,
 .footer-container {
   display: flex;
   flex-direction: row;
@@ -90,19 +91,52 @@ a, ul, p, h1, button {
   color:#1F2937;
 }
 .hero-right {
-  width: 400px;
+  width: 300px;
 }
 .hero-right img {
   width: 100%;
   height: 100%
 }
 
+.physicist-information-header {
+  font-size: 36px;
+  font-weight: extra-bold; 
+  color: #1F2937;
+  text-align: center;
+  padding: 20px;
+}
+.physicist-information-container {
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 64px;
+}
+.physicist-information-item {
+  border: 5px solid #3882F6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+}
+
+.physicist-information-item:hover {
+  transform: scale(1.2);
+}
+.physicist-information-item img {
+  width: 150px;
+  height: 150px;
+}
+.physicist-information-text {
+  font-size: 13px;
+  font-weight: 600;
+  background-color: lightblue;
+}
 
 .footer-container {
   background-color: #1F2937;
   color: #F9FAF8;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 24px;
 }
