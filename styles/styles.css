@@ -3,23 +3,25 @@ a, ul, body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.header-container, .header-logo, .header-links {
+.header-container, .header-logo, .header-links,
+.footer-container {
   display: flex;
+  flex-direction: row;
 }
 
 .header-logo, .header-links {
   margin: 0 48px;
 }
-
 .header-container {
   background-color: #1F2937;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
 }
-
 .header-logo {
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
   font-weight: bolder;
@@ -28,15 +30,22 @@ a, ul, body {
   justify-content: center;
   align-items: center;
 }
-
 .header-links {
   gap: 10px;
 }
-
 .header-links li a {
   color: #F9FAF8;
 }
 .header-links li a:hover {
   font-size: 17px;
   color: lightblue;
+}
+
+.footer-container {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
 }
