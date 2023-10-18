@@ -1,16 +1,6 @@
 # odin-flexbox-landing-page
-TOP - Flexbox Landing Page Project 
-
-This is my landing page for the Odin Project Fundamentals of CSS Flexbox section.
-
-It is created using the supplied desired-outcome images along with the following provided specifications:
-
-* dark background color (hero and footer):  #1F2937
-* Hero Main Text:                           48px extra-bold #F9FAF8
-* Header Logo Text:                         24px #F9FAF8
-* Button Color, CTA Background Color:       #3882F6
-* Information Header Text:                  36px extra-bold #1F2937
-* Quote Section Background Color:           #E5E7EB
-* Quote Text:                               36px light italic #1F2937
-
-I've also went ahead and learned some more about hover, and scale effects and applied them where I felt it was relevant. 
+TOP: Flexbox Landing Page <br/>
+Live Preview: https://gajdascz.github.io/odin-flexbox-landing-page/#
+[The Odin Project - Project Page](https://www.theodinproject.com/lessons/foundations-landing-page)
+<br>
+This is a very simple landing page using just HTML and CSS - Flexbox.
