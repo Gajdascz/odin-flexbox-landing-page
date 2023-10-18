@@ -1,7 +1,7 @@
 # odin-flexbox-landing-page
-The Odin Project - Project: Flexbox Landing Page 
+TOP - Flexbox Landing Page Project 
 
-This is my landing page for the Odin Project Flexbox section.
+This is my landing page for the Odin Project Fundamentals of CSS Flexbox section.
 
 It is created using the supplied desired-outcome images along with the following provided specifications:
 
@@ -14,4 +14,3 @@ It is created using the supplied desired-outcome images along with the following
 * Quote Text:                               36px light italic #1F2937
 
 I've also went ahead and learned some more about hover, and scale effects and applied them where I felt it was relevant. 
-
